@@ -1,9 +1,7 @@
 from gpt2_train import GPT2Trainer
-from google.colab import drive
-drive.mount('/content/drive')
 
 # Nom du fichier CSV contenant les données
-file_name = "/content/drive/MyDrive/rakitra.csv"
+file_name = "rakitra.csv"
 
 # Initialiser l'entraîneur GPT-2
 trainer = GPT2Trainer(project_name="gpt2_csv_training")
