@@ -1,5 +1,3 @@
-pip install datasets
-
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArguments
 from datasets import load_dataset
 import wandb
