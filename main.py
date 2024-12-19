@@ -1,7 +1,7 @@
 from gpt2_train import GPT2Trainer
 
 # Nom du fichier CSV contenant les données
-file_name = "rakitra.csv"
+file_name = "/content/drive/MyDrive/rakitra.csv"
 
 # Initialiser l'entraîneur GPT-2
 trainer = GPT2Trainer(project_name="gpt2_csv_training")
